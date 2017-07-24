@@ -1,0 +1,43 @@
+body,html{
+    background: #cccccc;
+}
+.middle{
+    height:600px;
+    width: 800px;
+    margin:100px auto ;
+    background-color: #ffffff;
+    box-shadow:0 0  5px 5px rgba(255, 255, 255, 0.3);
+}
+.table{
+    width: 700px;
+    margin: auto;
+    position: relative;
+    top:30px;
+
+    border-collapse: collapse;
+    /*separate	默认值。边框会被分开。不会忽略 border-spacing 和 empty-cells 属性。
+    collapse	如果可能，边框会合并为一个单一的边框。会忽略 border-spacing 和 empty-cells 属性。
+    inherit	规定应该从父元素继承 border-collapse 属性的值。*/
+    border: 1px solid #c0c0c0;
+
+}
+/*th ,td还有两个重要属性colspan 跨列 rowspan 跨行*/
+.table th,td {
+    border: 1px solid #d0d0d0;
+    color: #404060;
+    padding: 10px;
+    height: 25px;
+
+}
+thead tr {
+    background-color: #4BAFEA;
+    font: bold 16px "微软雅黑";
+    color: #fff;
+}
+tbody tr {
+    background-color: #f0f0f0;
+}
+tbody tr:hover {
+    cursor: pointer;
+    background-color: #fafafa;
+}

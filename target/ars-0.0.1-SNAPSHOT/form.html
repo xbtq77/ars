@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格样式开发</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+<section>
+    <div class="middle">
+        <div>
+        <ul class="tab">
+            <li>第一步</li>
+            <li>第二部</li>
+            <li>第三部</li>
+        </ul>
+        </div>
+        <div style="height: 1px"></div>
+
+        <form action="" class="form">
+            <div class="main show">
+            <div><lable>用户名:</lable>
+                <input type="text"></div>
+            <div><lable>密码:</lable>
+                <input type="password"></div>
+            <div><lable>邮箱:</lable>
+                <input type="text"></div>
+            <div><lable>年级:</lable>
+                <select name="" id="">
+                    <option value="">请选择</option>
+                    <option value="">13级</option>
+                </select></div>
+                </div>
+            <div class="main">
+            <div><lable>性别:</lable>
+                <input type="radio" name="sex"><label>男</label>
+                <input type="radio" name="sex"><label>女</label>
+            </div>
+            <div><lable>兴趣:</lable>
+                <input type="checkbox" name="sex"><label>篮球</label>
+                <input type="checkbox" name="sex"><label>羽毛球</label>
+                <input type="checkbox" name="sex"><label>乒乓球</label>
+                <input type="checkbox" name="sex"><label>排球</label>
+            </div>
+            <div><lable id="textarea">自我介绍:</lable>
+                <textarea name=""  cols="70" rows="10"/>
+
+                </textarea></div>
+                </div>
+            <hr style="position: relative;left: -60px;color: #cccccc" />
+            <div class="bottom_line">
+                <lable ></lable>
+
+                <input type="submit" value="提交">
+                <input type="reset" value="重置">
+            </div>
+        </form>
+
+
+    </div>
+
+</section>
+</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/tab.js"></script>

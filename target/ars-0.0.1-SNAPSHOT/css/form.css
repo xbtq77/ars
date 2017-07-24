@@ -1,0 +1,156 @@
+body,html{
+    background: #cccccc;
+}
+.middle{
+    border-radius: 3px;
+    height:800px;
+    width: 1000px;
+    margin:100px auto ;
+    position: relative;
+    background-color: #ffffff;
+    box-shadow:0 0  5px 5px rgba(255, 255, 255, 0.3);
+}
+.main{
+    width: 970px;
+
+    display: none;
+    position: relative;
+}
+.tab{
+    list-style:none;
+
+    height: 43px;
+    width: 961px;
+    margin: 10px auto ;
+    padding-top: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+.tab li{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    float: left;
+    margin-left: 90px;
+    color: #666666;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+.tab li:hover{
+
+    border-bottom: 3px solid red;
+
+}
+
+.show{
+    display: block;
+}
+.form {
+    position: relative;
+    top:30px;
+    left: 60px;
+}
+.form lable{
+    width: 78px;
+    text-align: left;
+    color: #222;
+    font-size: 16px;
+    display: inline-block;
+}
+.form div {
+    margin-bottom: 20px;
+}
+.form input{
+
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+}
+.form input[type="text"], input[type="password"], select{
+    margin: 5px;
+    padding: 0 10px;
+    width: 200px;
+    height: 34px;
+    color: #404040;
+    background: white;
+    border: 1px solid;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 2px;
+    outline: 3px solid #eff4f7;
+    -moz-outline-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.form input[type=text]:focus, input[type=password]:focus,select:focus {
+    border-color: #7dc9e2;
+    outline-color: #dceefc;
+    outline-offset: 0;
+}
+#textarea{
+    position: relative;
+    top:-139px;
+}
+.form textarea{
+    padding: 5px 7px;
+    color: #404040;
+    background: white;
+    border: 1px solid;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 2px;
+    outline: 5px solid #eff4f7;
+    -moz-outline-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.form :focus{
+    border-color: #7dc9e2;
+    outline-color: #dceefc;
+    outline-offset: 0;
+
+}
+.form input[type="checkbox"],input[type="radio"]{
+    margin: 5px;
+    padding: 0 10px;
+    outline: 2px solid #eff4f7;
+    -moz-outline-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.form input[type=submit],input[type=reset] {
+
+    padding: 0 18px;
+    height: 29px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #527881;
+    text-shadow: 0 1px #e3f1f1;
+    background: #cde5ef;
+    border: 1px solid;
+    border-color: #b4ccce #b3c0c8 #9eb9c2;
+    border-radius: 16px;
+    outline: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-image: -webkit-linear-gradient(top, #edf5f8, #cde5ef);
+    background-image: -moz-linear-gradient(top, #edf5f8, #cde5ef);
+    background-image: -o-linear-gradient(top, #edf5f8, #cde5ef);
+    background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
+    -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.form input[type=submit]:active {
+    background: #cde5ef;
+    border-color: #9eb9c2 #b3c0c8 #b4ccce;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.form input[type=text],input[type=password] {
+    line-height: 34px;
+}
+.form .bottom_line{
+
+    padding-top: 20px;
+}
